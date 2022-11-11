@@ -31,7 +31,7 @@ const ruleForm = reactive({
   password: 'admin',
 })
 const router = useRouter();
-
+#test
 const rules = reactive<FormRules>({
   username: [
     { required: true, message: '请输入用户名', trigger: 'blur' },
